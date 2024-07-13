@@ -7,13 +7,25 @@
 </head>
 <body>
     
+
+  <script src="../js/common.js"></script>
+
+  
 <script>
-    var car = new Object();
-    car.color = "white";
-    car.price = "1000만원";
-    car.getinfo = function(){
-        document("색상:", this.color,"<br>");
-    }
+    var num1=10
+    var num2=3
+   
+
+
+    // 산술연산자
+    // num1 += num2 ; // num1 = num1 + num2 ;     // num1 = 10 + 3  result (13)
+    // num1 -= num2 ; // num1 = num1 - num2 ;       // num1 = 10 - 3  result (7)
+    // num1 *= num2 ; // num1 = num1 * num2 ;       // num1 = 10 * 3  result (30)
+    // num1 /= num2 ; // num1 = num1 / num2 ;       // num1 = 10 / 3  result (3)
+    num1 %= num2 ; // num1 = num1 / num2 ;      // num1 = 10 % 3 result (1)
+
+
+    alert(num1);
 </script>
 </body>
 </html>
