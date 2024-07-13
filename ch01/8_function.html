@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    // 함수 사용
+    // abc();
+    // abcd();
+    // add(3, 7)
+    // min(3, 7)
+    // gob(3, 7)
+    // nan(3, 7)
+
+    // 함수 정의 = var a;
+    function abc () {
+        alert("function");
+    }
+
+    function abcd (num1, num2) {
+        alert(num1 + ":" + num2);
+    }
+
+    function add (num1, num2) {
+        let result = num1 + num2;
+        // alert(result);
+        alert(num1 + num2);
+    }
+
+    function min (num1, num2) {
+        let result = num1 - num2;
+        // alert(result);
+        alert(num1 - num2);
+    }
+
+    function gob (num1, num2) {
+        let result = num1 * num2;
+        // alert(result);
+        alert(num1 * num2);
+    }
+
+    function nan (num1, num2) {
+        let result = num1 / num2;
+        // alert(result);
+        alert(num1 / num2);
+    }
+
+    // return
+    // var realResult = plus1(3,7);
+    // var realResult = minus1(13,7);
+    // var realResult = multiply1(3,7);
+    // var realResult = divide1(14,7);
+
+    // alert(realResult);
+
+    function plus1 (num1, num2) {
+        // let num1 = change(num1);
+        let result = num1 + num2;
+        return result;
+    }
+
+    function minus1 (num1, num2) {
+        let result = num1 - num2;
+        return result;
+    }
+
+    function multiply1 (num1, num2) {
+        let result = num1 * num2;
+        return result;
+    }
+
+    function divide1 (num1, num2) {
+        let result = num1 / num2;
+        return result;
+    }
+
+    function change (num) {
+        return num - 10;
+    }
+
+    // 정수형 변수 두 개 선언
+    // 두 수를 비교하여 큰 수를 return
+    // 출력 "변수1과 변수2 중 큰 수는 ?입니다."
+    // 출력도 함수화 할 것
+    // var number1 = 1;
+    // var number2 = 3;
+    // var realResult = comp(number1,number2);
+    // print(number1, number2);
+    // function comp (num1, num2) {
+    //     if(num1 > num2){
+    //         return num1;
+    //     } else {
+    //         return num2;
+    //     }
+    // }
+    // function print (number1, number2) {
+    //     alert(number1 + " 과 " + number2 + "중 큰 수는 " + realResult + "입니다.");
+    // }
+
+    // 정수형 변수1개 선언
+    // 짝수 인지 홀수 인지 판단하는 함수
+    // "? 수는 짝수/홀수 입니다." 출력 하는 함수
+    var number3 = 0;
+    var realResult = judge(number3);
+    print(number3, realResult);
+    function judge (num1) {
+        if(num1 % 2 == 0){
+            return "짝수";
+        } else {
+            return "홀수";
+        }
+    }
+    function print (number3, realResult) {
+        if(number3 == 0){
+            alert("0은 그냥 0");
+        } else if (number3 < 0) {
+            alert("음수 넣지마");
+        } else {
+            alert(number3 + "은/는 " + realResult + " 입니다.");
+        }
+    }
+</script>
+</body>
+</html>
