@@ -8,9 +8,168 @@
 <body>
     
 <script>
-    for(let i=1; i <=3; i++){
-        alert("alkreglka");
+    for(let i=1; i<=3; i++){
+        // alert(i);
     }
+
+    // 1~10 합
+    // var sum = 0;
+
+    for(let i=1; i<=10; i++){
+        sum = i + sum;    
+        alert(sum + ":" + i);
+    }
+    alert(sum);
+
+    2단
+    var sum = 0;
+    for(let i=2; i<=2; i++){
+        for(let j=1; j<=9; j++){
+            sum = i * j;
+            alert(i + "*" + j + "=" + sum);
+        }
+    }
+
+    for(let i=1; i<=9; i++){
+        sum = 2 * i;
+        alert("2*" + i + "=" + sum);
+    }
+
+    for(let i=1; i<=9; i++){
+        console.log("2*" + i + "=" + 2*i);
+    }
+    console.log("------");
+
+    // 2~9단
+    // for(let i=2; i<=9; i++){
+    //     for(let j=1; j<=9; j++){
+    //         console.log(i + "*" + j + "=" + i*j);
+    //     }
+    //     console.log("------");
+    // }
+
+    // 2단 짝수만
+    // for(let i=2; i<=2; i++){
+    //     for(let j=1; j<=9; j++){
+    //         sum = j % 2;
+    //         if(sum == 0){
+    //             console.log(i + "*" + j + "=" + i*j);
+    //         } else {
+
+    //         }
+    //     }
+    // }
+
+    // 2단 홀수만
+    // for(let i=2; i<=2; i++){
+    //     for(let j=1; j<=9; j++){
+    //         sum = j % 2;
+    //         if(sum == 1){
+    //             console.log(i + "*" + j + "=" + i * j);
+    //         } else {
+
+    //         }
+    //     }
+    // }
+
+    //*
+    //**
+    //***
+    //****
+    //*****
+    // let star = "";
+    // for(let i=1; i<=5; i++){
+    //     star += "*";
+    //     console.log(star);
+    // }
+    // let star = "";
+    // for(let i=1; i<=5; i++){
+    //     for(let j=1; j<=1; j++){
+    //         star += "*";
+    //     }
+    //     console.log(star);
+    // }
+    // let star = "";
+    // for(let i=1; i<=5; i++){
+    //     for (var j=1; j<=i; j++) {
+    //         star += "*";
+    //     }
+    //     console.log(i + ":" + j + ":" + star);
+    //     star = "";
+    // }
+    // for(let i=1; i<=5; i++){
+    //     star = "";
+    //     for(let j=1; j<=i; j++){
+    //         star += "*";
+    //     }
+    //     console.log(star);
+    // }
+
+    //    *
+    //   ***
+    //  *****
+    // *******
+    //*********
+    // let star2 = "";
+    // let empty2 = "";
+    // for(let i=1; i<=5; i++){
+    //     for(let j=1; j<=(2*i)-1; j++){
+    //         star2 += "*";
+    //     }
+    //     for(let k=(5-i); k>=1; k--){
+    //         empty2 += " ";
+    //     }
+    //     console.log(empty2 + star2 + empty2);
+    //     star2 = "";
+    //     empty2 = "";
+    // }
+    // for (let i = 1; i <= 5; i++) {
+    //     let star2 = "";
+    //     let empty2 = "";
+    //     for (let j = 1; j <= (2 * i) - 1; j++) {
+    //         star2 += "*";
+    //     }
+    //     for (let k = (5 - i); k >= 1; k--) {
+    //         empty2 += " ";
+    //     }
+    //     console.log(empty2 + star2 + empty2);
+    // }
+
+    //    *
+    //   **
+    //  ***
+    // ****
+    //*****
+    // let star3 = "";
+    // let empty3 = "";
+    // for(let i=1; i<=5; i++){
+    //     for(let j=1; j<=i; j++){
+    //         star3 += "*";
+    //     }
+    //     for(let k=(5-i); k>=1; k--){
+    //         empty3 += " ";
+    //     }
+    //     console.log(empty3 + star3);
+    //     star3 = "";
+    //     empty3 = "";
+    // }
+    for(let i=1; i<=5; i++){
+        let star3 = "";
+        let empty3 = "";
+        for(let j=1; j<=i; j++){
+            star3 += "*";
+        }
+        for(let k=(5-i); k>=1; k--){
+            empty3 += " ";
+        }
+        console.log(empty3 + star3);
+    }
+
+    for(let i = 1; i <= 9; i++){
+            console.log("2 * " + i + " = " + 2*i);
+        }
+
+    
 </script>
 </body>
 </html>
