@@ -12,20 +12,19 @@
 
   
 <script>
-    var num1=10
-    var num2=3
-   
+ var mathScore=77;
 
-
-    // 산술연산자
-    // num1 += num2 ; // num1 = num1 + num2 ;     // num1 = 10 + 3  result (13)
-    // num1 -= num2 ; // num1 = num1 - num2 ;       // num1 = 10 - 3  result (7)
-    // num1 *= num2 ; // num1 = num1 * num2 ;       // num1 = 10 * 3  result (30)
-    // num1 /= num2 ; // num1 = num1 / num2 ;       // num1 = 10 / 3  result (3)
-    num1 %= num2 ; // num1 = num1 / num2 ;      // num1 = 10 % 3 result (1)
-
-
-    alert(num1);
+ if(mathScore >= 90){
+      alert("A");
+ } else if(mathScore <= 89 && mathScore >= 80 ){
+      alert("B");
+ } else if(mathScore <= 79 && mathScore >= 70){
+      alert("C");
+ } else if(mathScore <= 69 && mathScore >= 60){
+      alert("D");
+ } else {
+      alert("F");
+ }
 </script>
 </body>
 </html>
